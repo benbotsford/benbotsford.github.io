@@ -108,6 +108,9 @@
   .edu h3 { font: 600 22px/1.25 "EB Garamond", Georgia, serif; margin: 0; }
   .edu p { color: var(--muted); margin: 2px 0 0; }
 
+  .side { display: grid; gap: 10px; }
+  .side-item { display: grid; grid-template-columns: 170px 1fr; gap: 20px; color: var(--muted); }
+  .side-item strong { color: var(--text); font-weight: 600; }
   .contact p { font-size: 18px; max-width: 560px; }
   .links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
 
@@ -119,6 +122,7 @@
     header.hero { padding: 56px 0 40px; }
     .lede { font-size: 17px; }
     .job { grid-template-columns: 1fr; gap: 4px; }
+    .side-item { grid-template-columns: 1fr; gap: 0; }
   }
 </style>
 </head>
@@ -243,6 +247,14 @@
     <h2>Education</h2>
     <h3>B.A., Cognitive Science</h3>
     <p>Case Western Reserve University · 2014</p>
+  </section>
+
+  <section id="elsewhere">
+    <h2>Outside Work</h2>
+    <div class="side">
+      <div class="side-item"><div class="when">Jan 2023 – Present</div><div><strong>Trivia Host</strong>, Geeks Who Drink</div></div>
+      <div class="side-item"><div class="when">Apr 2026 – Present</div><div><strong>Host</strong>, Jeopardy! Bar League</div></div>
+    </div>
   </section>
 
   <section id="contact" class="contact">
