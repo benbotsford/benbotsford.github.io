@@ -4,7 +4,11 @@ Personal site for Ben Botsford, a static page hosted on GitHub Pages with a cust
 
 ```
 index.html                 # the whole site (HTML + inline CSS)
+<<<<<<< HEAD
 Ben_Botsford_Resume.pdf    # linked from the "Download résumé" button
+=======
+Ben_Botsford_Resume.pdf    # linked from the "Download resume" button
+>>>>>>> 67ab1a6 (update with 404 page, new header for personal section)
 CNAME                      # tells GitHub Pages the custom domain: benbotsford.com
 ```
 
